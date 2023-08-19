@@ -4,7 +4,7 @@ Welcome to the Comprehensive README Example! This document showcases various Mar
 
 ## Table of Contents
 
-- [Headers](#headers)
+- [Header](#headers)
 - [Emphasis](#emphasis)
 - [Lists](#lists)
 - [Links](#links)
@@ -177,12 +177,13 @@ You can create nested lists for organized content.
   1. Sub-item 1
   2. Sub-item 2
 - Other List
-  1. item 1
-  2. item 2
+  i. item 1
+  ii. item 2
 
 ## Strikethrough
 
 Use `~~` to strike through text.
+
 ~~This text is strikethrough.~~
 
 ## Fenced Code Blocks without Language
@@ -196,9 +197,12 @@ This is a code block
 ## Tables with Alignment
 
 Align columns using colons in the header row.
-| Left-aligned | Center-aligned | Right-aligned |
-| :--- | :---: | ---: |
-| Content | Content | Content |
+| Left-aligned | Center-aligned | Right-aligned | Extra |
+| :--- | :---: | ---: | :--: |
+| Content 11 | Content 12| Content 13| Content 14|
+| Content 21 | Content 22| Content 23 | Content 24 |
+| Content 31| Content 32 | Content 33| Content 34 |
+| Content 41| Content 42 | Content 43| Content 44
 
 ## Definition Lists
 
@@ -206,7 +210,7 @@ Create definition lists using colons.
 Term 1
 : Definition 1
 Term 2
-: Definition 2
+:Definition 2
 
 ## Blockquotes with Multiple Paragraphs
 
@@ -268,8 +272,14 @@ def function():
 
 Create informational, warning, or other types of admonition blocks.
 
+> :warning: This is a warning <br>
+> :memo: This is information Block <br>
+> :bulb: This is a hint <br>
+> :information_source: Additional information <br>
+> :x: Additional information <br>
+
 :::info
-This is an informational block.
+This is an informational block
 :::
 
 :::warning
@@ -313,7 +323,7 @@ Assign custom IDs to headers for linking within the document.
 ## Emoji
 
 Some Markdown processors support emojis.
-:smile: :rocket:
+:smile: :rocket: :sa: :dollar:
 
 ## Line Highlighting in Code Blocks
 
@@ -418,7 +428,7 @@ Term 2
 
 Center align content using HTML.
 
-<div align="center">
+<div align="center" >
     This content is centered.
 </div>
 
